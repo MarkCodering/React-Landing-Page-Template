@@ -385,10 +385,11 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 .testimonial {
-	position: relative;
+	position: flex;
 	padding: 20px;
 }
 .testimonial-image {
+	text-align: center;
 	float: left;
 	margin-right: 15px;
 }
@@ -399,10 +400,11 @@ header .intro-text {
 	border-radius: 50%;
 }
 .testimonial-content {
-	position: relative;
+	position: center;
 	overflow: hidden;
 }
 .testimonial-content p {
+	position: center;
 	margin-bottom: 0;
 	font-size: 14px;
 	font-style: italic;

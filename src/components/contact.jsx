@@ -44,55 +44,8 @@ export const Contact = (props) => {
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
                 </p>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9NLdhMJI4ftoCi8s4-laByLOMC_lrqtfjbhQW0krpV5mQwQ/viewform?embedded=true" width="700" height="250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        type='text'
-                        id='name'
-                        name='name'
-                        className='form-control'
-                        placeholder='Name'
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className='help-block text-danger'></p>
-                    </div>
-                  </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        type='email'
-                        id='email'
-                        name='email'
-                        className='form-control'
-                        placeholder='Email'
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className='help-block text-danger'></p>
-                    </div>
-                  </div>
-                </div>
-                <div className='form-group'>
-                  <textarea
-                    name='message'
-                    id='message'
-                    className='form-control'
-                    rows='4'
-                    placeholder='Message'
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className='help-block text-danger'></p>
-                </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
-                </button>
-              </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
@@ -129,11 +82,6 @@ export const Contact = (props) => {
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>

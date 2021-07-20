@@ -1,17 +1,18 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "title": "teamee",
+        "paragraph": "“Join the team” With the “teamee” app you can make new friends to do your favourite sports!"
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "We are a tech start-up connecting people to share their interest in doing sports together.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Award-winning Team",
+            "Full-stack Development Capacity",
+            "Cloud-native company",
+            "Diverse team composition",
+            "Post-pandemic Momentum",
+            "Low-cost Entry"
         ],
         "Why2": [
             "Aliquip ex ea commodo",
@@ -54,83 +55,67 @@
 
     ],
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "img": "img/testimonials/tkulogo.png",
+            "text": "\"簡單明瞭切入消費者insight，並清楚描述目標對象與生活型態，簡報闡述故事性佳\"",
+            "name": "Judge 2, Tamkang University"
         },
         {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/testimonials/tkulogo.png",
+            "text": "入圍淡江大學創新創業競賽決賽佳作 (因疫情停辦) Excellence Award, Tamkang University Entrepreneurial Competition",
+            "name": "Tamkang University"
         },
         {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/testimonials/tkulogo.png",
+            "text": ".APP如何推廣是本案成功重要因素。",
+            "name": "Judge 1, Tamkang University"
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "img": "img/team/mark.jpg",
+            "name": "Mark Chen",
+            "job": "CEO, co-founder"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "img": "img/team/andre.jpg",
+            "name": "André F. Paulucio",
+            "job": "CFO, co-founder"
         }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
+            "img": "img/team/marcelo.png",
+            "name": "Marcelo Barahona",
+            "job": "CMO, co-founder"
         },
         {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/team/harris.jpg",
+            "name": "Harris Lin",
+            "job": "Chief Engineer, Backend Developer, co-founder"
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "Tamkang University, Tamsui Dist, New Taipei City, Taiwan (R.O.C)",
+        "phone": "+886 0987860588",
+        "email": "teamee.contact@gmail.com",
         "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "https://www.youtube.com/channel/UCu3V1UCtQEHc4fck9Ll079g"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Ad-free Experience",
+            "text": "Our application is an ad-free experience to all of our users"
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/icons/UI.png",
+            "title": "Intuitive Interface",
+            "text": "To simply \"join the team\" is not just our mission, it is our passion and purpose to simplify the process of finding your training partner(s)"
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Join/Create the Team",
+            "text": "Users can either create and host their own activity, or search and join an existing one!"
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/icons/tracker.png",
+            "title": "Health Tracker",
+            "text": "Leverage your training experience with an all-new health tracker and mission dashboard"
         }
     ]
 }

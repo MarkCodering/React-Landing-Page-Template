@@ -1,18 +1,18 @@
 export const Testimonials = (props) => {
+  //const i = 1;
   return (
     <div id='testimonials'>
       <div className='container'>
         <div className='section-title text-center'>
-          <h2>What our clients say</h2>
+          <h2>WHAT OTHERS ARE SAYING</h2>
         </div>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
+                <div className='col-md-4'>
                   <div className='testimonial'>
                     <div className='testimonial-image'>
-                      {' '}
-                      <img src={d.img} alt='' />{' '}
+                      <img src={d.img} alt='' />
                     </div>
                     <div className='testimonial-content'>
                       <p>"{d.text}"</p>
